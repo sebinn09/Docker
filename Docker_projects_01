@@ -40,7 +40,7 @@ FROM node:latest
 
 WORKDIR /usr/app/
 #Install dependencies
-COPY ./ ./
+COPY ./ /usr/app/
 Run npm install
 
 #Default command
