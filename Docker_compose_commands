@@ -2,3 +2,4 @@ Docker-compose up :- docker run image
 docker-compose up --build :- Build docker file in current working directory and docker run image
 docker-compose up -d
 docker-compose down
+docker-compose ps #run this command in the directory where docker-compose.yml file stays
