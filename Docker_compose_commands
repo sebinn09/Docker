@@ -1,2 +1,4 @@
 Docker-compose up :- docker run image
 docker-compose up --build :- Build docker file in current working directory and docker run image
+docker-compose up -d
+docker-compose down
