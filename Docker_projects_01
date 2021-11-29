@@ -47,7 +47,7 @@ Run npm install
 
 CMD ["npm" , "start"]
 
-docker build -t <imagename> .
+docker build -t dockerfile . OR docker build -f <filename eg:dockerfile.dev> .
 docker run -p 8080:8080 <imagename>
 
 #check in browser <public ip>:8080
