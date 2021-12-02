@@ -6,5 +6,5 @@ apt-cache policy docker-ce
 sudo apt install docker-ce
 sudo systemctl start docker
 sudo systemctl status docker
-apt install docker-compose
+sudo apt-get install docker-compose
 docker-compose -v
